@@ -1,7 +1,7 @@
+import { Document } from "mongoose";
 export type UserRole = 'admin' | 'company' | 'candidate';
 
 export interface IUser {
-  _id: string;
   name: string;
   email: string;
   password: string;
