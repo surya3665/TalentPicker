@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { AxiosError, InternalAxiosRequestConfig } from 'axios';
 
-const BASE_URL = '/api';
+const BASE_URL = 'https://talentpicker.onrender.com/api';
 
 export const axiosInstance = axios.create({
   baseURL: BASE_URL,
